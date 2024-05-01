@@ -23,7 +23,8 @@ import cv2
 cv2.__version__
 ```
 8. 在Thonny调用CV2
-#项目目标
+
+# 项目目标
 基于Raspberrypi CM4 和 CM4-NANO-C 制作一款高集成度的视觉识别平台
 + https://www.waveshare.net/wiki/CM4-NANO-C#.E8.AF.B4.E6.98.8E
 + https://www.waveshare.net/shop/CM4104000.htm
