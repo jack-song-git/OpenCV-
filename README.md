@@ -1,5 +1,5 @@
 # OpenCV学习笔记
-1. 使用平台：Rasspiberry4B
+1. 使用平台：Raspberrypi 4B
 2. 摄像头：原装Model3
 
 # 树莓派初始化
@@ -23,3 +23,13 @@ import cv2
 cv2.__version__
 ```
 8. 在Thonny调用CV2
+#项目目标
+基于Raspberrypi CM4 和 CM4-NANO-C 制作一款高集成度的视觉识别平台
++ https://www.waveshare.net/wiki/CM4-NANO-C#.E8.AF.B4.E6.98.8E
++ https://www.waveshare.net/shop/CM4104000.htm
+## 拓展功能
+1. 红外夜视功能
+2. 亮度可调无频闪补光灯
+3. 人体感应雷达
+4. 环境光传感器
+5. 麦克风，扬声器，语音交互功能
