@@ -1,8 +1,13 @@
 # OpenCV学习笔记
+1. OpenCV中文文档https://apachecn.github.io/opencv-doc-zh/#/
+2. Python教程https://docs.python.org/zh-cn/3/tutorial/
+3. NumPy教程https://scipy.github.io/old-wiki/pages/Tentative_NumPy_Tutorial.html
+
+# 硬件平台
 1. 使用平台：Raspberrypi 4B
 2. 摄像头：原装Model3
 
-# 树莓派初始化
+## 树莓派初始化
 1. 镜像下载安装
   + Raspberry Pi Imager获取网站https://www.raspberrypi.com/software/
   + 使用 Raspberry Pi Imager 安装 Raspberry Pi OS
@@ -13,10 +18,13 @@
 ```vim
 $sudo raspi-config
 ```
-4. 树莓派中文手册网站https://pidoc.cn/
-5. 摄像头的初步操作参考https://pidoc.cn/docs/computers/camera-software
-6. OpenCV安装：sudo apt-get install python3-opencv
-7. 检查CV版本，在终端依次运行下面代码https://zhuanlan.zhihu.com/p/615187665
+## 摄像头使用
+1. 树莓派中文手册网站https://pidoc.cn/
+2. 摄像头的初步操作参考https://pidoc.cn/docs/computers/camera-software
+
+## OpenCV安装
+1. OpenCV安装：sudo apt-get install python3-opencv
+2. 检查CV版本，在终端依次运行下面代码https://zhuanlan.zhihu.com/p/615187665
 ```python
 python
 import cv2
